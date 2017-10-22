@@ -1,0 +1,38 @@
+@font-face {
+    font-family: MoonLight;
+    src: url("../../assets/fonts/moon_light.otf");
+}
+@font-face {
+    font-family: MoonBold;
+    src: url("../../assets/fonts/moon_bold.otf");
+}
+
+button{
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: 1px solid white;
+  font-family: MoonLight;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: black;
+}
+button:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+body{
+  background-color:  #58181F;
+  color: white;
+  text-align: center;
+  font-family: MoonBold; sans-serif;
+  padding-top: 0.5rem;
+  border: 10px solid black;
+  padding-bottom: 1rem;
+}
+.button-2{
+  background-color: orange;
+}
